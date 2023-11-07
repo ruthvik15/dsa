@@ -3,7 +3,7 @@ using namespace std;
 class Abstract_Demo{
 private:
   int  first;
-  char second;
+  char second ;
 public:
   Abstract_Demo()
   {
