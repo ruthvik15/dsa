@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<conio.h>
 
 // Structure for a node of AVL tree
 struct Node {
