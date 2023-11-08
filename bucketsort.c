@@ -6,6 +6,7 @@ struct Node {
     struct Node* next;
 };
 
+
 void insert(struct Node** head, int data) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     newNode->data = data;
@@ -43,6 +44,9 @@ int Max(struct Node* head) {
     return max;
 }
 
+void add(int a,int b){
+    return a+b;
+}
 void sort(struct Node** head) {
     int max = Max(*head);
     int j,i;
