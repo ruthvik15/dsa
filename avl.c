@@ -8,7 +8,7 @@ struct Node {
     struct Node *left;
     struct Node *right;
     int height;
-    int hello;
+    
 };
 
 // Function to get the height of a node
